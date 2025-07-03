@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-image: url(minah/back1.jfif) ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+      
+     }
+
+
+
+img{
+    width: 50px;
+}
+header{
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; /* Assuming your nav is 80px tall */
+  background-color: #fff;
+  z-index: 999;
+}
+
+
+
+nav{
+  
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    padding: 0px 60px;
+    border: 4px solid white;
+    
+}
+
+ul{
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    margin-top: 10px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    transition: 3s;
+}
+li:hover{
+    transition: 3s;
+    transform: scale(1.2);
+    background-color: rgb(141, 157, 177);
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+        
+}
+h1{
+  color: rgb(192, 45, 70);
+}
+button{
+    margin-left: 10px;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(100, 100, 100);
+    background-color:rgb(0, 0, 0);
+}
+
+.foot{
+    width: 50px;
+}
+.wif{
+    margin: 10px 10px;
+}
+
+
+
+@media(max-width:500px) {
+     body{
+        background-color: white;
+    }
+    header {
+        height: auto;
+        position: fixed;
+      }
+    
+      nav {
+        padding: 0 20px;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+      }
+    
+      .hamburger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin-bottom: 5px;
+      }
+    
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 5px;
+        left: 390px;
+        background-color: transparent;
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .nav-menu ul {
+        flex-direction: column;
+        gap: 0px;
+        padding: 3px;
+      }
+    
+      .hamburger-container.active .nav-menu {
+        display: block;
+      }
+
+      section{
+    padding-top: 110px;
+     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: 200;
+    align-items: center;
+        
+}
+button{
+    margin-left: 10px;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(100, 100, 100);
+    background-color:rgb(0, 0, 0);
+}
+
+.foot{
+    width: 50px;
+}
+.wif{
+    margin: 10px 10px;
+  }
+ }
+
+
+
+    @media(max-width:430px) {
+     body{
+        background-color: white;
+    }
+    header {
+        height: auto;
+        position: fixed;
+      }
+    
+      nav {
+        padding: 0 20px;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+      }
+    
+      .hamburger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin-bottom: 5px;
+      }
+    
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 3px;
+        left: 300px;
+        background-color: transparent;
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .nav-menu ul {
+        flex-direction: column;
+        gap: 0px;
+        padding: 3px;
+      }
+    
+      .hamburger-container.active .nav-menu {
+        display: block;
+      }
+
+      section{
+     padding-top: 110px;
+      padding-bottom: 50px;
+     display: flex;
+     flex-direction: column;
+     font-size: 15px;
+     font-weight: 200;
+     align-items: center;
+     }
+    
+     button{
+     margin-left: 10px;
+     font-size: 20px;
+     }
+    footer{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    background-color:rgb(0, 0, 0);
+}
+
+.foot{
+    width: 50px;
+}
+.wif{
+    margin: 10px 10px;
+ }
+
+}
+  
+
+
+
+
+
+    @media(max-width:365px) {
+     body{
+        background-color: white;
+    }
+    header {
+        height: auto;
+        position: fixed;
+      }
+    
+      nav {
+        padding: 0 20px;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    
+      .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+      }
+    
+      .hamburger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin-bottom: 5px;
+      }
+    
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 5px;
+        left: 250px;
+        background-color: transparent;
+        width: 100%;
+        padding: 20px;
+      }
+    
+      .nav-menu ul {
+        flex-direction: column;
+        gap: 0px;
+        padding: 3px;
+      }
+    
+      .hamburger-container.active .nav-menu {
+        display: block;
+      }
+
+      section{
+    padding-top: 110px;
+     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 200;
+    align-items: center;
+        
+      }
+      form{
+        margin-left: 30px;
+      }
+
+      textarea{
+        padding: 5px;
+
+      }
+     button{
+      margin-left: 10px;
+      font-size: 20px;
+      }
+     footer{
+      text-align: center;
+     font-size: 15px;
+     color: rgb(100, 100, 100);
+     background-color:rgb(0, 0, 0);
+      }
+
+    .foot{
+      width: 50px;
+       }
+      .wif{
+       margin: 10px 10px;
+      }
+
+
+    }
