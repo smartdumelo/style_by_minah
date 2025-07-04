@@ -115,7 +115,7 @@ footer{
 
 @media(max-width:500px) {
      body{
-        background-color: white;
+         background-color: gainsboro;
     }
     header {
         height: auto;
@@ -149,7 +149,7 @@ footer{
         display: none;
         position: absolute;
         top: 5px;
-        left: 390px;
+        left: 370px;
         background-color: transparent;
         width: 100%;
         padding: 20px;
@@ -186,8 +186,8 @@ h1{
 }
 h3{
     font-size: 18px;
-    font-weight: 900;
-    margin-left: 10px;
+    font-weight: 300;
+    margin-left: 40px;
 
 }
 button{
@@ -208,11 +208,11 @@ button:hover{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .Visit{
-    margin-left: 30px;
+    margin-left: 40px;
     font-size: 19px;
 }
 footer{
@@ -237,7 +237,7 @@ footer{
 
     @media(max-width:430px) {
      body{
-        background-color: white;
+         background-color: gainsboro;
     }
     header {
         height: auto;
@@ -271,7 +271,7 @@ footer{
         display: none;
         position: absolute;
         top: 5px;
-        left: 310px;
+        left: 290px;
         background-color: transparent;
         width: 100%;
         padding: 20px;
@@ -292,7 +292,7 @@ footer{
     
 }
 h1{
-    margin-left: 50px;
+    margin-left: 70px;
     font-size: 22px;
     font-weight: 600;
     
@@ -308,8 +308,8 @@ h1{
 }
 h3{
     font-size: 15px;
-    font-weight: 700;
-    margin-left: 10px;
+    font-weight: 300;
+    margin-left: 35px;
 
 }
 button{
@@ -330,12 +330,12 @@ button:hover{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 17px;
-    font-family: sans-serif;
+    font-size: 16px;
+
 }
 
 .Visit{
-    margin-left: 20px;
+    margin-left: 35px;
     font-size: 16px;
 }
 footer{
@@ -361,7 +361,7 @@ footer{
 
     @media(max-width:365px) {
      body{
-        background-color: white;
+         background-color: gainsboro;
     }
     header {
         height: auto;
@@ -432,7 +432,7 @@ h1{
 }
 h3{
     font-size: 23px;
-    font-weight: 900;
+    font-weight: 300;
 
 }
 button{
@@ -453,11 +453,12 @@ button:hover{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .Visit{
-    font-size: 22px;
+    margin-left: 15px;
+    font-size: 15px;
 }
 footer{
     text-align: center;

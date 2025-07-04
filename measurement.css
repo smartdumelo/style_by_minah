@@ -5,7 +5,7 @@
 }
 
 body{
-     background-image: url(minah/back1.jfif) ;
+     background-image: url(minah/back4.jfif) ;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -72,7 +72,7 @@ section{
         
 }
 h1{
-  color: rgb(192, 45, 70);
+  color: rgb(0, 0, 0);
 }
 button{
     margin-left: 10px;
@@ -130,7 +130,7 @@ footer{
         display: none;
         position: absolute;
         top: 5px;
-        left: 390px;
+        left: 370px;
         background-color: transparent;
         width: 100%;
         padding: 20px;
@@ -213,7 +213,7 @@ footer{
         display: none;
         position: absolute;
         top: 3px;
-        left: 300px;
+        left: 290px;
         background-color: transparent;
         width: 100%;
         padding: 20px;

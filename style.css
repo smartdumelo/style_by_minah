@@ -193,7 +193,7 @@ footer{
 
 @media(max-width:500px) {
      body{
-        background-color: white;
+        background-color: gainsboro;
     }
     header {
         height: auto;
@@ -393,7 +393,7 @@ footer{
 
 
     body{
-        background-color: white;
+         background-color: gainsboro;
     }
     header {
         height: auto;
@@ -427,7 +427,7 @@ footer{
         display: none;
         position: absolute;
         top: 5px;
-        left: 300px;
+        left: 290px;
         background-color: transparent;
         width: 100%;
         padding: 20px;
@@ -588,7 +588,7 @@ footer{
 
 @media(max-width:365px){
      body{
-        background-color: white;
+         background-color: gainsboro;
     }
     header {
         height: auto;
