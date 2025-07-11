@@ -5,7 +5,7 @@
 }
 
 body{
-     background-image: url(minah/back4.jfif) ;
+     background: linear-gradient(to right, #41413d93, #4e4e4b93), url(minah/back4.jfif) ;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -74,6 +74,10 @@ section{
 }
 h1{
   color: rgb(0, 0, 0);
+}
+label{
+  font-size: 11px;
+  font-weight: 600;
 }
 button{
     margin-left: 10px;
