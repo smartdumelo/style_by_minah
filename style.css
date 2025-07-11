@@ -58,8 +58,8 @@ li:hover{
     background-color:  rgb(247, 221, 221);
 }
 section{
-   padding-top: 60px; 
-    background-image: url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
+   padding-top: 60px;
+    background: linear-gradient(to right, #41413d93, #4e4e4b93), url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ footer{
       
       section{
         padding-top: 60px; 
-        background-image: url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
+       background: linear-gradient(to right, #41413d93, #4e4e4b93),  url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -453,7 +453,7 @@ footer{
       
       section{
         padding-top: 60px; 
-        background-image: url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
+        background: linear-gradient(to right, #41413d93, #4e4e4b93),  url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -648,7 +648,7 @@ footer{
       
       section{
         padding-top: 60px; 
-        background-image: url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
+        background: linear-gradient(to right, #41413d93, #4e4e4b93), url("minah/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg");
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
